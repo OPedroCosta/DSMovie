@@ -27,20 +27,41 @@
 
     <main>
         <section id="DSMovie-form-section">
-            
-            <div  class="container DSMovie-form-container">
+
+            <div class="container DSMovie-form-container">
 
                 <div>
                     <div class="DSMovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg" alt="The Witcher">
-                        <div class="DSMovie-card-description">
+                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg"
+                            alt="The Witcher">
+                        <div class="DSMovie-form-description">
                             <h3>The Witcher</h3>
-                            <a class="DSMovie-btn" href="index.html">Cancelar</a>
+                            <form class="DSMovie-form">
+                                <div class="form-group DSMovie-form-group">
+                                    <label for="email">Informa seu email</label>
+                                    <input class="form-control" type="email" id="email">
+                                </div>
+                                <div class="form-group DSMovie-form-group">
+                                    <label for="score">Informe sua avaliação</label>
+                                    <select class="form-control" name="score" id="score">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div> 
+                                <div class="DSMovie-form-btn-container">
+                                    <button  class="DSMovie-btn" type="submit">Salvar</button>
+                                    <a class="DSMovie-btn" href="index.html">Cancelar</a>
+                                </div>  
+                            </form>
+
                         </div>
-                     </div>
+                    </div>
                 </div>
-                        
-          
+
+
             </div>
 
         </section>
